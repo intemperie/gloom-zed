@@ -1,5 +1,5 @@
 # Gloom theme for Zed &nbsp; [![GitHub release](https://img.shields.io/github/tag/intemperie/gloom-zed.svg)](https://github.com/intemperie/gloom-zed/releases) [![GitHub stars](https://img.shields.io/github/stars/intemperie/gloom-zed.svg?style=social&label=Star)](https://github.com/intemperie/gloom-zed/stargazers)
-<sup>For [Zed](https://zed.dev/)</sup>
+<sup>For [Zed](https://zed.dev/), from an old Atom fan</sup>
 
 A dark and gloomy pastel color syntax theme for Zed, ported from the beloved [Gloom](https://github.com/hejrobin/gloom) Atom theme by [@hejrobin](https://github.com/hejrobin). Thanks, Robin!
 
