@@ -47,4 +47,4 @@ This theme is released under the same license as the original Gloom theme. Pleas
 
 ---
 
-Ported with love by [Alberto Calvo](https://intemperie.me) from the original Gloom theme with some help from my friend [Claude](https://claude.ai).
+Ported with love by [Alberto Calvo](https://intemperie.me) from the original [Gloom](https://github.com/hejrobin/gloom) theme by [@hejrobin](https://github.com/hejrobin) with some help from my friend [Claude](https://claude.ai).
