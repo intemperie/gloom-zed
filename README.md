@@ -5,5 +5,5 @@ A port of the beautiful [Gloom](https://github.com/hejrobin/gloom), a dark and g
 
 ---
 
-### Preview (Language &bull; `CSS`
+### Preview (Language &bull; `CSS`)
 ![Preview (Language: CSS)](https://raw.githubusercontent.com/intemperie/gloom-zed/master/gloom-preview@2x.png)
