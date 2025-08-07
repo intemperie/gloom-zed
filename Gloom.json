@@ -1,0 +1,400 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "name": "Gloom",
+  "author": "Robin Grass, migrated by Alberto Calvo",
+  "themes": [
+    {
+      "name": "Gloom Dark",
+      "appearance": "dark",
+      "style": {
+        // Base colors from the actual VS Code Gloom theme
+        "background": "#212136",
+        "foreground": "#F1EFF7",
+        "text": "#F1EFF7",
+        "text.muted": "#9da5b4",
+        "text.placeholder": "#6B717D",
+        "text.disabled": "#495162",
+        "text.accent": "#94F2E7",
+
+        // Editor - using exact VS Code values
+        "editor.background": "#292A44",
+        "editor.foreground": "#F1EFF7",
+        "editor.line_number": "#495162",
+        "editor.active_line_number": "#9da5b4",
+        "editor.active_line.background": "#333454",
+        "editor.gutter.background": "#292A44",
+        "editor.indent_guide": "#3B404850",
+        "editor.indent_guide_active": "#4E566670",
+        "editor.wrap_guide": "#333454",
+        "editor.active_wrap_guide": "#4E5666",
+        "editor.invisible": "#3B4048",
+        "editor.highlighted_line.background": "#333454",
+        // Document highlights
+        "editor.document_highlight.read_background": "#484e5b60",
+        "editor.document_highlight.write_background": "#484e5b80",
+        "editor.document_highlight.bracket_background": "#42557B60",
+
+        // UI Elements - matching VS Code colors
+        "surface.background": "#212136",
+        "elevated_surface.background": "#212136",
+        "element.background": "#292A44",
+        "element.hover": "#363759",
+        "element.active": "#383E4A",
+        "element.selected": "#4F528A",
+        "element.disabled": "#1d1f23",
+
+        // Ghost elements
+        "ghost_element.background": "#00000000",
+        "ghost_element.hover": "#36375950",
+        "ghost_element.active": "#4F528A80",
+        "ghost_element.selected": "#4F528A50",
+
+        // Borders - even more subtle with lower opacity
+        "border": "#181A1F50",
+        "border.variant": "#181A1F70",
+        "border.focused": "#94F2E7",
+        "border.selected": "#4F528A",
+        "border.transparent": "#00000000",
+        "border.disabled": "#181A1F20",
+
+        // Status colors using VS Code Gloom palette
+        "error": "#FF6F9F",
+        "error.background": "#FF6F9F20",
+        "error.border": "#FF6F9F",
+        "warning": "#FFDB7D",
+        "warning.background": "#FFDB7D20",
+        "warning.border": "#FFDB7D",
+        "success": "#2DE0A7",
+        "success.background": "#2DE0A720",
+        "success.border": "#2DE0A7",
+        "info": "#7AA5FF",
+        "info.background": "#7AA5FF20",
+        "info.border": "#7AA5FF",
+        "hint": "#AE81FF",
+        "hint.background": "#AE81FF20",
+        "hint.border": "#AE81FF",
+
+        // Git status colors
+        "created": "#6DFEDF",
+        "created.background": "#6DFEDF20",
+        "created.border": "#6DFEDF",
+        "modified": "#e0c285",
+        "modified.background": "#e0c28520",
+        "modified.border": "#e0c285",
+        "deleted": "#FF6F9F",
+        "deleted.background": "#FF6F9F20",
+        "deleted.border": "#FF6F9F",
+        "conflict": "#AE81FF",
+        "conflict.background": "#AE81FF20",
+        "conflict.border": "#AE81FF",
+        "renamed": "#66D9EF",
+        "renamed.background": "#66D9EF20",
+        "renamed.border": "#66D9EF",
+        "ignored": "#6B717D",
+        "ignored.background": "#6B717D20",
+        "ignored.border": "#6B717D",
+
+        // Icons
+        "icon": "#9da5b4",
+        "icon.muted": "#6B717D",
+        "icon.disabled": "#495162",
+        "icon.placeholder": "#6B717D",
+        "icon.accent": "#4D78CC",
+
+        // Panels and tabs - exact VS Code mapping
+        "panel.background": "#212136",
+        "panel.focused_border": "#94F2E7",
+        "tab_bar.background": "#212136",
+        "tab.active_background": "#292A44",
+        "tab.inactive_background": "#212136",
+        "title_bar.background": "#212136",
+        "title_bar.inactive_background": "#212136",
+        "toolbar.background": "#292A44",
+        "status_bar.background": "#212136",
+
+        // Panes - even more subtle borders
+        "pane.focused_border": "#94F2E7",
+        "pane_group.border": "#181A1F30",
+
+        // Search
+        "search.match_background": "#42557B",
+
+        // Drop target
+        "drop_target.background": "#94F2E730",
+
+        // Scrollbars - matching VS Code
+        "scrollbar.thumb.background": "#4E566620",
+        "scrollbar.thumb.hover_background": "#5A637580",
+        "scrollbar.thumb.border": "#333454",
+        "scrollbar.track.background": "#292A44",
+        "scrollbar.track.border": "#292A44",
+
+        // Terminal - using VS Code color mapping
+        "terminal.background": "#292A44",
+        "terminal.foreground": "#F1EFF7",
+        "terminal.bright_foreground": "#FFFFFF",
+        "terminal.dim_foreground": "#9da5b4",
+        "terminal.ansi.black": "#292A44",
+        "terminal.ansi.red": "#FF6F9F",
+        "terminal.ansi.green": "#2DE0A7",
+        "terminal.ansi.yellow": "#FFDB7D",
+        "terminal.ansi.blue": "#7AA5FF",
+        "terminal.ansi.magenta": "#AE81FF",
+        "terminal.ansi.cyan": "#6DFEDF",
+        "terminal.ansi.white": "#F1EFF7",
+        "terminal.ansi.bright_black": "#495162",
+        "terminal.ansi.bright_red": "#c24038",
+        "terminal.ansi.bright_green": "#6DFEDF",
+        "terminal.ansi.bright_yellow": "#e0c285",
+        "terminal.ansi.bright_blue": "#66D9EF",
+        "terminal.ansi.bright_magenta": "#C178DD",
+        "terminal.ansi.bright_cyan": "#94F2E7",
+        "terminal.ansi.bright_white": "#FFFFFF",
+        "terminal.ansi.dim_black": "#181A1F",
+        "terminal.ansi.dim_red": "#ED4781",
+        "terminal.ansi.dim_green": "#678BDC",
+        "terminal.ansi.dim_yellow": "#D2945D",
+        "terminal.ansi.dim_blue": "#569cd6",
+        "terminal.ansi.dim_magenta": "#b267e6",
+        "terminal.ansi.dim_cyan": "#57adb8",
+        "terminal.ansi.dim_white": "#A6B2C0",
+
+        // Player colors
+        "players": [
+          {
+            "background": "#4F528A",
+            "cursor": "#94F2E7",
+            "selection": "#6DFEDF30"
+          }
+        ],
+
+        // Syntax highlighting with exact VS Code Gloom colors
+        "syntax": {
+          // Comments - exact match
+          "comment": {
+            "color": "#6D6DB5",
+            "font_style": "italic"
+          },
+          "comment.doc": {
+            "color": "#6D6DB5",
+            "font_style": "italic"
+          },
+
+          // Keywords - blue from VS Code theme
+          "keyword": {
+            "color": "#7AA5FF",
+            "font_weight": 500
+          },
+          "keyword.control": {
+            "color": "#7AA5FF"
+          },
+          "keyword.operator": {
+            "color": "#2DE0A7"
+          },
+          "keyword.other": {
+            "color": "#7AA5FF"
+          },
+
+          // Strings - cyan/green from theme
+          "string": {
+            "color": "#6DFEDF"
+          },
+          "string.escape": {
+            "color": "#AE81FF"
+          },
+          "string.regex": {
+            "color": "#6DFEDF"
+          },
+
+          // Numbers - yellow/orange
+          "number": {
+            "color": "#FFDB7D"
+          },
+
+          // Functions - green
+          "function": {
+            "color": "#2DE0A7"
+          },
+          "function.method": {
+            "color": "#2DE0A7"
+          },
+          "function.builtin": {
+            "color": "#66D9EF"
+          },
+
+          // Variables - pink/red
+          "variable": {
+            "color": "#FF6F9F"
+          },
+          "variable.parameter": {
+            "color": "#F1EFF7"
+          },
+          "variable.builtin": {
+            "color": "#66D9EF"
+          },
+          "variable.special": {
+            "color": "#FF6F9F"
+          },
+
+          // Types - green/cyan
+          "type": {
+            "color": "#2DE0A7",
+            "font_weight": 500
+          },
+          "type.builtin": {
+            "color": "#66D9EF"
+          },
+
+          // Constants - purple
+          "constant": {
+            "color": "#AE81FF"
+          },
+          "constant.builtin": {
+            "color": "#AE81FF"
+          },
+          "constant.character": {
+            "color": "#AE81FF"
+          },
+
+          // Properties - blue for CSS property names
+          "property": {
+            "color": "#66D9EF"
+          },
+
+          // Attributes - red/pink
+          "attribute": {
+            "color": "#F92672"
+          },
+
+          // Tags (HTML/XML) - cyan
+          "tag": {
+            "color": "#66D9EF"
+          },
+          "tag.attribute": {
+            "color": "#F92672"
+          },
+
+          // Constructors - cyan
+          "constructor": {
+            "color": "#66D9EF",
+            "font_weight": 500
+          },
+
+          // Modules - blue
+          "module": {
+            "color": "#7AA5FF"
+          },
+
+          // Labels - blue
+          "label": {
+            "color": "#7AA5FF"
+          },
+
+          // Punctuation - light text
+          "punctuation": {
+            "color": "#F1EFF7"
+          },
+          "punctuation.bracket": {
+            "color": "#F1EFF7"
+          },
+          "punctuation.delimiter": {
+            "color": "#bbbbbb"
+          },
+
+          // Links - cyan
+          "link_text": {
+            "color": "#6DFEDF"
+          },
+          "link_uri": {
+            "color": "#AE81FF"
+          },
+
+          // Additional syntax keys from other Zed themes
+          "boolean": {
+            "color": "#AE81FF"
+          },
+          "embedded": {
+            "color": "#F1EFF7"
+          },
+          "emphasis": {
+            "color": "#7AA5FF",
+            "font_style": "italic"
+          },
+          "emphasis.strong": {
+            "color": "#AE81FF",
+            "font_weight": 700
+          },
+          "enum": {
+            "color": "#66D9EF"
+          },
+          "hint": {
+            "color": "#AE81FF",
+            "font_weight": 500
+          },
+          "operator": {
+            "color": "#2DE0A7"
+          },
+          "predictive": {
+            "color": "#6D6DB5",
+            "font_style": "italic"
+          },
+          "preproc": {
+            "color": "#7AA5FF"
+          },
+          "primary": {
+            "color": "#F1EFF7"
+          },
+          "punctuation.list_marker": {
+            "color": "#bbbbbb"
+          },
+          "punctuation.special": {
+            "color": "#2DE0A7"
+          },
+          "string.special": {
+            "color": "#FFDB7D"
+          },
+          "string.special.symbol": {
+            "color": "#AE81FF"
+          },
+          "text.literal": {
+            "color": "#FFDB7D"
+          },
+          "title": {
+            "color": "#2DE0A7",
+            "font_weight": 700
+          },
+          "variant": {
+            "color": "#66D9EF"
+          },
+
+          // Markup - using theme colors
+          "markup.heading": {
+            "color": "#2DE0A7",
+            "font_weight": 700
+          },
+          "markup.bold": {
+            "color": "#AE81FF",
+            "font_weight": 700
+          },
+          "markup.italic": {
+            "color": "#7AA5FF",
+            "font_style": "italic"
+          },
+          "markup.list": {
+            "color": "#FF6F9F"
+          },
+          "markup.quote": {
+            "color": "#5C6370",
+            "font_style": "italic"
+          },
+          "markup.link_text": {
+            "color": "#6DFEDF"
+          },
+          "markup.link_url": {
+            "color": "#AE81FF"
+          }
+        }
+      }
+    }
+  ]
+}
