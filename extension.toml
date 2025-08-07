@@ -1,0 +1,9 @@
+id = "gloom"
+name = "Gloom"
+description = "A dark and gloomy pastel color syntax theme ported from Atom"
+version = "0.5.0"
+schema_version = 1
+authors = ["Alberto Calvo <intemperie@gmail.com>"]
+repository = "https://github.com/intemperie/gloom-zed"
+
+[themes]
