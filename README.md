@@ -22,9 +22,10 @@ To install the theme manually:
 
 2. Copy all `.json` files from the `themes/` directory to your Zed themes folder:
 
-  On a Mac, go to Finder, and head to Go > Go to Folder… or hit <kbd>⇧</kbd><kbd>⌘</kbd><kbd>G</kbd>. From there you can insert `~/.config/zed/themes/` as a path, and copy the content there.
+  2.1 On a Mac, go to Finder, and head to Go > Go to Folder… or hit <kbd>⇧</kbd><kbd>⌘</kbd><kbd>G</kbd>. From there you can insert `~/.config/zed/themes/` as a path, and copy the content there.
+  2.1 Or you can do it via the Terminal:
 
-   ```bash
+  ```bash
    cp themes/*.json ~/.config/zed/themes
    ```
 
