@@ -3,8 +3,7 @@
 
 A port of the beautiful [Gloom](https://github.com/hejrobin/gloom), a dark and gloomy pastel color syntax theme originally created by [@hejrobin](https://github.com/hejrobin) for Atom.
 
-## Credits
-- Original Gloom theme: [hejrobin/gloom](https://github.com/hejrobin/gloom)
-- Zed port: Alberto Calvo
-
 ---
+
+### Preview (Language &bull; `CSS`
+![Preview (Language: CSS)](https://raw.githubusercontent.com/intemperie/gloom-zed/master/gloom-preview@2x.png)
