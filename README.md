@@ -3,15 +3,17 @@
 
 A dark and gloomy pastel color syntax theme for Zed, ported from the beloved [Gloom](https://github.com/hejrobin/gloom) Atom theme by [@hejrobin](https://github.com/hejrobin). Thanks, Robin!
 
-## Preview (Language &bull; `CSS`)
+## Preview
+
+### Language &bull; `CSS`
 ![Preview (Language: CSS)](https://raw.githubusercontent.com/intemperie/gloom-zed/master/gloom-preview@2x.png)
 
 ## Installation
 
-### Option 1: Extension Installation (in progress)
+### Option 1: Extension installation (in progress)
 I still have to submit this to the Zed directory.
 
-### Option 2: Manual Installation
+### Option 2: Manual installation
 
 To install the theme manually:
 
@@ -23,7 +25,7 @@ To install the theme manually:
 
 2. Copy all `.json` files from the `themes/` directory to your Zed themes folder:
 
-  - On a Mac, go to Finder, and head to Go > Go to Folder… or hit <kbd>⇧</kbd><kbd>⌘</kbd><kbd>G</kbd>. From there you can insert `~/.config/zed/themes/` as a path, and copy the content there.
+  - On a Mac, go to Finder, and head to **Go** > **Go to Folder…** or hit <kbd>⇧</kbd><kbd>⌘</kbd><kbd>G</kbd>. From there you can insert `~/.config/zed/themes/` as a path, and copy the content there.
   - Or you can do it via the Terminal:
 
   ```bash
@@ -32,7 +34,7 @@ To install the theme manually:
 
 3. Open Zed, press <kbd>⌘</kbd><kbd>Ctrl</kbd><kbd>K</kbd>, and then <kbd>⌘</kbd><kbd>Ctrl</kbd><kbd>T</kbd> to open the theme selector, and select *Gloom Dark*.
 
-## Feedback & Contributions
+## Feedback and contributions
 
 If you have suggestions, improvements, or find any issues with the theme, feel free to:
 - Open an [issue](https://github.com/intemperie/gloom-zed/issues)
