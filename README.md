@@ -3,7 +3,7 @@
 
 A dark and gloomy pastel color syntax theme for Zed, ported from the beloved [Gloom](https://github.com/hejrobin/gloom) Atom theme by [@hejrobin](https://github.com/hejrobin). Thanks, Robin!
 
-### Preview (Language &bull; `CSS`)
+## Preview (Language &bull; `CSS`)
 ![Preview (Language: CSS)](https://raw.githubusercontent.com/intemperie/gloom-zed/master/gloom-preview@2x.png)
 
 ## Installation
