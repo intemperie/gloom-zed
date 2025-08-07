@@ -7,3 +7,25 @@ A port of the beautiful [Gloom](https://github.com/hejrobin/gloom), a dark and g
 
 ### Preview (Language &bull; `CSS`)
 ![Preview (Language: CSS)](https://raw.githubusercontent.com/intemperie/gloom-zed/master/gloom-preview@2x.png)
+
+---
+
+## Manual installation
+
+To install the theme manually:
+
+1. Clone or download this repository.
+
+  ```bash
+    git clone https://github.com/intemperie/gloom-zed.git
+  ```
+
+2. Copy all `.json` files from the `themes/` directory to your Zed themes folder:
+
+  On a Mac, go to Finder, and head to Go > Go to Folder… or hit <kbd>⇧</kbd><kbd>⌘</kbd><kbd>G</kbd>. From there you can insert `~/.config/zed/themes/` as a path, and copy the content there.
+
+   ```bash
+   cp themes/*.json ~/.config/zed/themes
+   ```
+
+3. Open Zed, go to **Settings → Theme**, and select Gloom.
