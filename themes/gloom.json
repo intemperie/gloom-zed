@@ -7,7 +7,6 @@
       "name": "Gloom Dark",
       "appearance": "dark",
       "style": {
-        // Base colors from the actual VS Code Gloom theme
         "background": "#212136",
         "foreground": "#F1EFF7",
         "text": "#F1EFF7",
@@ -16,7 +15,6 @@
         "text.disabled": "#495162",
         "text.accent": "#94F2E7",
 
-        // Editor - using exact VS Code values
         "editor.background": "#292A44",
         "editor.foreground": "#F1EFF7",
         "editor.line_number": "#495162",
@@ -29,12 +27,10 @@
         "editor.active_wrap_guide": "#4E5666",
         "editor.invisible": "#3B4048",
         "editor.highlighted_line.background": "#333454",
-        // Document highlights
         "editor.document_highlight.read_background": "#484e5b60",
         "editor.document_highlight.write_background": "#484e5b80",
         "editor.document_highlight.bracket_background": "#42557B60",
 
-        // UI Elements - matching VS Code colors
         "surface.background": "#212136",
         "elevated_surface.background": "#212136",
         "element.background": "#292A44",
@@ -43,13 +39,11 @@
         "element.selected": "#4F528A",
         "element.disabled": "#1d1f23",
 
-        // Ghost elements
         "ghost_element.background": "#00000000",
         "ghost_element.hover": "#36375950",
         "ghost_element.active": "#4F528A80",
         "ghost_element.selected": "#4F528A50",
 
-        // Borders - even more subtle with lower opacity
         "border": "#181A1F50",
         "border.variant": "#181A1F70",
         "border.focused": "#94F2E7",
@@ -57,7 +51,6 @@
         "border.transparent": "#00000000",
         "border.disabled": "#181A1F20",
 
-        // Status colors using VS Code Gloom palette
         "error": "#FF6F9F",
         "error.background": "#FF6F9F20",
         "error.border": "#FF6F9F",
@@ -74,7 +67,6 @@
         "hint.background": "#AE81FF20",
         "hint.border": "#AE81FF",
 
-        // Git status colors
         "created": "#6DFEDF",
         "created.background": "#6DFEDF20",
         "created.border": "#6DFEDF",
@@ -94,14 +86,12 @@
         "ignored.background": "#6B717D20",
         "ignored.border": "#6B717D",
 
-        // Icons
         "icon": "#9da5b4",
         "icon.muted": "#6B717D",
         "icon.disabled": "#495162",
         "icon.placeholder": "#6B717D",
         "icon.accent": "#4D78CC",
 
-        // Panels and tabs - exact VS Code mapping
         "panel.background": "#212136",
         "panel.focused_border": "#94F2E7",
         "tab_bar.background": "#212136",
@@ -112,24 +102,19 @@
         "toolbar.background": "#292A44",
         "status_bar.background": "#212136",
 
-        // Panes - even more subtle borders
         "pane.focused_border": "#94F2E7",
         "pane_group.border": "#181A1F30",
 
-        // Search
         "search.match_background": "#42557B",
 
-        // Drop target
         "drop_target.background": "#94F2E730",
 
-        // Scrollbars - matching VS Code
         "scrollbar.thumb.background": "#4E566620",
         "scrollbar.thumb.hover_background": "#5A637580",
         "scrollbar.thumb.border": "#333454",
         "scrollbar.track.background": "#292A44",
         "scrollbar.track.border": "#292A44",
 
-        // Terminal - using VS Code color mapping
         "terminal.background": "#292A44",
         "terminal.foreground": "#F1EFF7",
         "terminal.bright_foreground": "#FFFFFF",
@@ -159,7 +144,6 @@
         "terminal.ansi.dim_cyan": "#57adb8",
         "terminal.ansi.dim_white": "#A6B2C0",
 
-        // Player colors
         "players": [
           {
             "background": "#4F528A",
@@ -168,9 +152,7 @@
           }
         ],
 
-        // Syntax highlighting with exact VS Code Gloom colors
         "syntax": {
-          // Comments - exact match
           "comment": {
             "color": "#6D6DB5",
             "font_style": "italic"
@@ -180,7 +162,6 @@
             "font_style": "italic"
           },
 
-          // Keywords - blue from VS Code theme
           "keyword": {
             "color": "#7AA5FF",
             "font_weight": 500
@@ -195,7 +176,6 @@
             "color": "#7AA5FF"
           },
 
-          // Strings - cyan/green from theme
           "string": {
             "color": "#6DFEDF"
           },
@@ -206,12 +186,10 @@
             "color": "#6DFEDF"
           },
 
-          // Numbers - yellow/orange
           "number": {
             "color": "#FFDB7D"
           },
 
-          // Functions - green
           "function": {
             "color": "#2DE0A7"
           },
@@ -222,7 +200,6 @@
             "color": "#66D9EF"
           },
 
-          // Variables - pink/red
           "variable": {
             "color": "#FF6F9F"
           },
@@ -236,7 +213,6 @@
             "color": "#FF6F9F"
           },
 
-          // Types - green/cyan
           "type": {
             "color": "#2DE0A7",
             "font_weight": 500
@@ -245,7 +221,6 @@
             "color": "#66D9EF"
           },
 
-          // Constants - purple
           "constant": {
             "color": "#AE81FF"
           },
@@ -256,17 +231,14 @@
             "color": "#AE81FF"
           },
 
-          // Properties - blue for CSS property names
           "property": {
             "color": "#66D9EF"
           },
 
-          // Attributes - red/pink
           "attribute": {
             "color": "#F92672"
           },
 
-          // Tags (HTML/XML) - cyan
           "tag": {
             "color": "#66D9EF"
           },
@@ -274,23 +246,19 @@
             "color": "#F92672"
           },
 
-          // Constructors - cyan
           "constructor": {
             "color": "#66D9EF",
             "font_weight": 500
           },
 
-          // Modules - blue
           "module": {
             "color": "#7AA5FF"
           },
 
-          // Labels - blue
           "label": {
             "color": "#7AA5FF"
           },
 
-          // Punctuation - light text
           "punctuation": {
             "color": "#F1EFF7"
           },
@@ -301,7 +269,6 @@
             "color": "#bbbbbb"
           },
 
-          // Links - cyan
           "link_text": {
             "color": "#6DFEDF"
           },
@@ -309,7 +276,6 @@
             "color": "#AE81FF"
           },
 
-          // Additional syntax keys from other Zed themes
           "boolean": {
             "color": "#AE81FF"
           },
@@ -367,7 +333,6 @@
             "color": "#66D9EF"
           },
 
-          // Markup - using theme colors
           "markup.heading": {
             "color": "#2DE0A7",
             "font_weight": 700
